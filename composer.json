@@ -1,0 +1,32 @@
+{
+    "name": "landmarx/user",
+    "type": "library",
+    "description": "user libraries for the landmarx system.",
+    "keywords": [
+        "user"
+    ],
+    "homepage": "http://landmarx.daviddurost.net",
+    "license": "MIT",
+    "authors": [
+        {
+        "name": "David Durost",
+        "homepage": "http://daviddurost.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Landmarx\\Component\\User\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.*-dev"
+        }
+    }
+}
